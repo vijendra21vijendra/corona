@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  background-color: rgb(200, 150, 170);
+  padding: 10px;
+}
+h3 {
+  font-family: "Piedra", cursive;
+  color: brown;
+}
+.container h3,
+p {
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 80%;
+  margin: 5px 0px;
+  padding: 2px;
+  border: solid rgb(132, 11, 101) 2px;
+  border-radius: 10px;
+  outline: none;
+  /* display: block; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  font-family: "Piedra", cursive;
+  color: white;
+  background: green;
+  padding: 5px 2px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.submsg {
+  color: green;
+  font-size: 20px;
+}
