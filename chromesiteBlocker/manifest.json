@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "myOwnBlocker",
+  "description": "custom site blocker",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["blocker.js"]
+  },
+  "icons": {
+    "16": "icon.png"
+  }
+}
